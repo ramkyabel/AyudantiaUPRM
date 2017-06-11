@@ -1,0 +1,39 @@
+body {
+	padding-top: 75px;
+
+}
+
+@media (min-height: 600px) {
+	.table-wrapper
+	{
+		padding: 10px 30px 5px;
+		border: 2px solid #ccc;
+		border-radius: 5px;
+		box-shadow: #ddd 2px 2px 0px; 
+
+	}
+}
+
+.table-wrapper td
+{
+	font-size: 20px;
+}
+
+.table-wrapper td td
+{
+	font-size: 18px;
+}
+
+th
+{
+	font-size: 1.5em;
+}
+
+td th
+{
+	font-size: 20px;
+} 	
+
+.navbar-nav > li {
+  font-size: 20px;
+  }
